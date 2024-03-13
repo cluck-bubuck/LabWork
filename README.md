@@ -148,3 +148,26 @@ git add .
 [master 1fafec0]  гитхаб
 1 file changet, 2 insperations(+)
 ```
+
++ *Сделал git merge - делает слияние веток, созданных git branch в одну*
+```
+git checkout master
+git merge
+```
++ *Отправил репозиторий в удаленный репозиторий*
+```
+git push origin master
+```
+
++ *Отправил из удаленного репозитория обратно*
+```
+git pull origin master
+```
+
++ *Создал новую ветку, закинул в нее файл и вроде как 26 пункт тут выполнил*
+```
+git checkout -b damnBr
+git add another2.txt
+git push origin damnBr
+git pull origin damnBr:master
+```
